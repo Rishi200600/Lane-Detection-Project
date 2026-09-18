@@ -13,8 +13,8 @@ from utils import (
 )
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
-INPUT_VIDEO = PROJECT_DIR / "data" / "input" / "test_video.mp4"
-OUTPUT_VIDEO = PROJECT_DIR / "data" / "output" / "output_video.mp4"
+INPUT_VIDEO = PROJECT_DIR / "data" / "input" / "test.mp4"
+OUTPUT_VIDEO = PROJECT_DIR / "data" / "output" / "output2_video.mp4"
 
 
 def smooth_lines(
